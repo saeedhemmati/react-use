@@ -1,3 +1,86 @@
+# [13.1.0](https://github.com/streamich/react-use/compare/v13.0.1...v13.1.0) (2019-11-01)
+
+
+### Features
+
+* pull request template for features ([1dc21f3](https://github.com/streamich/react-use/commit/1dc21f3))
+
+## [13.0.1](https://github.com/streamich/react-use/compare/v13.0.0...v13.0.1) (2019-11-01)
+
+
+### Bug Fixes
+
+* **useLockBodyScroll:** infer overflow type directly from declaration. ([26baf47](https://github.com/streamich/react-use/commit/26baf47))
+
+# [13.0.0](https://github.com/streamich/react-use/compare/v12.13.0...v13.0.0) (2019-11-01)
+
+
+* Merge pull request #711 from streamich/remove-react-wait ([8d40f18](https://github.com/streamich/react-use/commit/8d40f18)), closes [#711](https://github.com/streamich/react-use/issues/711)
+
+
+### Features
+
+* remove useRefMounted hook ([ad74d3d](https://github.com/streamich/react-use/commit/ad74d3d))
+* **useRefMounted:** remove obsolete hook; ([dc364c8](https://github.com/streamich/react-use/commit/dc364c8))
+* **useWait:** removed from package due to it is simple reexport of other package; ([d7c38bd](https://github.com/streamich/react-use/commit/d7c38bd))
+
+
+### BREAKING CHANGES
+
+* useWait hook has been removed from react-use
+* deprecated useRefMounted hook is now removed, use useMountedState hook instead
+
+# [12.13.0](https://github.com/streamich/react-use/compare/v12.12.0...v12.13.0) (2019-10-31)
+
+
+### Features
+
+* **useCounter:** reworked with use of new resolveHookState function plus improved memory usage; ([befcf84](https://github.com/streamich/react-use/commit/befcf84))
+* **useGetSet:** reworked with use of new resolveHookState function plus improved memory usage; ([9b5d0f2](https://github.com/streamich/react-use/commit/9b5d0f2))
+* react-like state resolver to use it in stateful hooks; ([9fd02eb](https://github.com/streamich/react-use/commit/9fd02eb))
+
+# [12.12.0](https://github.com/streamich/react-use/compare/v12.11.0...v12.12.0) (2019-10-31)
+
+
+### Features
+
+* add typings for createReducer ([f1cf036](https://github.com/streamich/react-use/commit/f1cf036))
+
+# [12.11.0](https://github.com/streamich/react-use/compare/v12.10.0...v12.11.0) (2019-10-31)
+
+
+### Features
+
+* **useWait:** add deprecation messages to readme and export; ([d338245](https://github.com/streamich/react-use/commit/d338245))
+
+# [12.10.0](https://github.com/streamich/react-use/compare/v12.9.1...v12.10.0) (2019-10-30)
+
+
+### Features
+
+* **useUpdate:** improve memory usage - now single function instance to increment all counters; ([0f02fd0](https://github.com/streamich/react-use/commit/0f02fd0))
+
+## [12.9.1](https://github.com/streamich/react-use/compare/v12.9.0...v12.9.1) (2019-10-28)
+
+
+### Bug Fixes
+
+* useSize avoid crash in Safari 11 ([da0e66b](https://github.com/streamich/react-use/commit/da0e66b))
+
+# [12.9.0](https://github.com/streamich/react-use/compare/v12.8.0...v12.9.0) (2019-10-26)
+
+
+### Features
+
+* add createBreakpoint ([79ba4ef](https://github.com/streamich/react-use/commit/79ba4ef))
+
+# [12.8.0](https://github.com/streamich/react-use/compare/v12.7.2...v12.8.0) (2019-10-25)
+
+
+### Features
+
+* add ensuredForwardRef and useEnsuredForwardedRef ([1bfe063](https://github.com/streamich/react-use/commit/1bfe063))
+
 ## [12.7.2](https://github.com/streamich/react-use/compare/v12.7.1...v12.7.2) (2019-10-23)
 
 

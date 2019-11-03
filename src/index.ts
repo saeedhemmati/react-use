@@ -17,6 +17,7 @@ export { default as useDefault } from './useDefault';
 export { default as useDrop } from './useDrop';
 export { default as useDropArea } from './useDropArea';
 export { default as useEffectOnce } from './useEffectOnce';
+export { default as useEnsuredForwardedRef, ensuredForwardRef } from './useEnsuredForwardedRef';
 export { default as useEvent } from './useEvent';
 export { default as useFavicon } from './useFavicon';
 export { default as useFullscreen } from './useFullscreen';
@@ -31,6 +32,7 @@ export { default as useIntersection } from './useIntersection';
 export { default as useInterval } from './useInterval';
 export { default as useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect';
 export { default as useKey } from './useKey';
+export { default as createBreakpoint } from './createBreakpoint';
 // not exported because of peer dependency
 // export { default as useKeyboardJs } from './useKeyboardJs';
 export { default as useKeyPress } from './useKeyPress';
@@ -62,11 +64,6 @@ export { default as usePromise } from './usePromise';
 export { default as useRaf } from './useRaf';
 export { default as useRafLoop } from './useRafLoop';
 export { default as useRafState } from './useRafState';
-
-/**
- * @deprecated This hook is obsolete, use `useMountedState` instead
- */
-export { default as useRefMounted } from './useRefMounted';
 export { default as useSearchParam } from './useSearchParam';
 export { default as useScroll } from './useScroll';
 export { default as useScrolling } from './useScrolling';
@@ -92,7 +89,6 @@ export { default as useUpsert } from './useUpsert';
 export { default as useVideo } from './useVideo';
 export { default as useStateValidator } from './useStateValidator';
 export { useMultiStateValidator } from './useMultiStateValidator';
-export { useWait, Waiter } from './useWait';
 export { default as useWindowScroll } from './useWindowScroll';
 export { default as useWindowSize } from './useWindowSize';
 export { default as useMeasure } from './useMeasure';
